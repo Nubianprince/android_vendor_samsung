@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/vendor/etc/Tfa9895.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9895.cnt \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gt58wifi/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8916.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcess.so \
