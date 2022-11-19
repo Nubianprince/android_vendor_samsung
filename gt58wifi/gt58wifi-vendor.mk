@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/lib/libmysound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmysound.so \
     vendor/samsung/gt58wifi/proprietary/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/gt58wifi/proprietary/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libmyspace.so
-    
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/samsung/gt58wifi/proprietary/etc/Tfa9895.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/Tfa9895.cnt \
@@ -121,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/ptt_socket_app:$(TARGET_COPY_OUT_VENDOR)/bin/ptt_socket_app \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/qcom-system-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qcom-system-daemon \
+		vendor/samsung/gt58wifi/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/gt58wifi/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
